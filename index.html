@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifra de César - ABEX XII</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho -->
+        <h1 class="text-center text-primary">Cifra de César em JavaScript</h1>
+        <p class="text-center text-muted">ABEX XII: Segurança em Sistemas</p>
+        <hr />
+
+        <!-- Área de Texto -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="texto" class="control-label">Texto:</label>
+                    <textarea id="texto" class="form-control" placeholder="Digite seu texto aqui"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botões -->
+        <div class="row text-center">
+            <div class="col-md-12">
+                <button id="codificar" class="btn btn-primary">Codificar</button>
+                <button id="descodificar" class="btn btn-secondary">Descodificar</button>
+            </div>
+        </div>
+
+        <!-- Resultado -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group" style="margin-top: auto;">
+                    <label for="cifrado" class="control-label">Resultado:</label>
+                    <textarea id="cifrado" class="form-control" placeholder="Resultado do texto codificado ou decodificado" disabled></textarea>
+                </div>
+            </div>
+        </div>
+
+        <!-- Logo -->
+        <div class="row text-center" style="margin-top: 40px;">
+            <div class="col-md-12">
+                <img src="img/logo.svg" alt="Logo do Projeto" class="img-responsive center-block" style="max-width: 200px;">
+            </div>
+        </div>
+
+        <!-- Rodapé -->
+        <footer class="text-center" style="position: fixed; bottom: 0; width: 100%; padding: 10px">
+            <p style="margin: 0;">Desenvolvido por 
+                <a href="https://github.com/feliperos-a" target="_blank" style="text-decoration: none; color: #007bff;">Felipe Rosa</a>
+            </p>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
